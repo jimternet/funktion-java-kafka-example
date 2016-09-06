@@ -1,0 +1,4 @@
+rules:
+  - name: kafkaConsumer
+    trigger: kafka:kafka:9092?topic=test&groupId=group1&autoOffsetReset=earliest&consumersCount=1
+    chain: log:foo
