@@ -1,0 +1,5 @@
+rules:
+  - name: kafkaProducer
+    trigger: timer://test?fixedRate=true&period=500
+    action: io.fabric8.funktion.example.Producer::message
+    chain: kafka:kafka:9092?topic=test
