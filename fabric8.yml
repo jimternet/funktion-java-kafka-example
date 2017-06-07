@@ -1,0 +1,9 @@
+---
+buildName: "funktion-java-kafka-example"
+links:
+  Git: "https://github.com/jimternet/funktion-java-kafka-example.git"
+  Job: "http://192.168.99.100:30674/job/funktion-java-kafka-example"
+  Testing: "http://10.0.0.103:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+useLocalFlow: true
